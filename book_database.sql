@@ -1,7 +1,8 @@
-CREATE DATABASE whalebook;
+CREATE DATABASE book;
 
-USE whalebook;
+USE book;
 
+SHOW TABLES;
 -- 회원 가입 테이블
 CREATE TABLE member(
                        id VARCHAR(16) NOT NULL,   								-- 아이디
@@ -41,7 +42,6 @@ UPDATE member SET pw='hmQ6nKUBYdXpLQGoN05drYLHeg3XF+wdBGad1DFuDI64MMRM/8bYIP/lzj
 --------------------------------------------------------------
 
 -- 공지사항(notice) 테이블 생성
-
 create table notice(
                        no int primary KEY AUTO_INCREMENT,
                        title varchar(200) not NULL,
@@ -70,12 +70,13 @@ INSERT INTO notice(title, content) VALUES ('공지사항8', '공지사항8 더�
 
 INSERT INTO notice(title, content) VALUES ('공지사항9', '공지사항9 더미글입니다.');
 
-COMMIT;      
+INSERT INTO notice(title, content) VALUES ('공지사항10', '공지사항10 더미글입니다.');
 
+commit;
 
 select * from notice;
 
---------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 -- 자주 묻는 질문 (FAQ) 테이블 생성
 
@@ -104,13 +105,13 @@ INSERT INTO faq(question, answer) VALUES('자주 묻는 질문8', '자주 묻는
 
 INSERT INTO faq(question, answer) VALUES('자주 묻는 질문9', '자주 묻는 질문9 더미글입니다.');
 
+INSERT INTO faq(question, answer) VALUES('자주 묻는 질문10', '자주 묻는 질문10 더미글입니다.');
+
 COMMIT;
 
 select * from faq;
 
---------------------------------------------------------------
-
-
+----------------------------------------------------------------------------------
 
 -- 파일 업로드 -- 필요한지는 모르겠음...
 
@@ -132,20 +133,20 @@ create table filetest2(
 
 select * from filetest2;
 
---------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 -- 상품 테이블 생성
 create table product(
                         pro_no INT PRIMARY KEY AUTO_INCREMENT,
                         cate_id VARCHAR(4) NOT NULL,								-- 품목 명
-                        pro_cate_no VARCHAR(100) NOT NULL, 						-- 상품번호+Category : 1-10 이런 형식
+                        pro_cate_no VARCHAR(100) NOT NULL, 							-- 상품번호+Category : 1-10 이런 형식
                         price INT DEFAULT 0, 										-- 상품 가격
                         title VARCHAR(100) NOT NULL,								-- 상품명
                         description VARCHAR(200), 									-- 상품 썸네일 설명
-                        pro_content VARCHAR(2000), 								-- 상품 설명
-                        thumb VARCHAR(256), 											-- 상품 썸네일
-                        img_src VARCHAR(5000) DEFAULT 'no_img.jpg', 			-- 상품 이미지 리스트
-                        regdate timestamp default CURRENT_TIMESTAMP 			-- 상품 게시 날짜
+                        pro_content VARCHAR(2000), 									-- 상품 설명
+                        thumb VARCHAR(256), 										-- 상품 썸네일
+                        img_src VARCHAR(5000) DEFAULT 'no_img.jpg', 				-- 상품 이미지 리스트
+                        regdate timestamp default CURRENT_TIMESTAMP 				-- 상품 게시 날짜
 );
 
 -- 상품 더미데이터 취합
@@ -565,10 +566,10 @@ INSERT INTO addinfo VALUES (DEFAULT, 138,'MOYAMONG & Friends','lecture_video02.m
 -- 입고 테이블 생성
 create table receive(
                         re_no INT primary KEY AUTO_INCREMENT,								-- 입고 번호
-                        pro_no int not NULL,                              			   -- 상품 번호
-                        amount int default 1,	         									-- 입고 수량
-                        re_price int default 1000,			    								-- 입고 가격
-                        resdate timestamp default CURRENT_TIMESTAMP		    			-- 입고 일시
+                        pro_no int not null,                                -- 상품 번호
+                        amount int default 1,	         					-- 입고 수량
+                        re_price int default 1000,			    			-- 입고 가격
+                        resdate timestamp default current_timestamp		    	-- 입고 일시
 );
 
 ---------------------------------------------------------------------------------------------------
@@ -576,10 +577,10 @@ create table receive(
 -- 출고 테이블 생성
 create table serve(
                       se_no int primary KEY AUTO_INCREMENT,								-- 출고 번호
-                      pro_no int not NULL, 		                     			   -- 상품 번호
-                      se_price int default 1000,					   				 	-- 출고 가격
-                      amount int default 1,				         						-- 출고 수량
-                      resdate timestamp default CURRENT_TIMESTAMP		    			-- 출고 일시
+                      pro_no int not null, 		                        -- 상품 번호
+                      se_price int default 1000,					    	-- 출고 가격
+                      amount int default 1,				         		-- 출고 수량
+                      resdate timestamp default current_timestamp		    	-- 출고 일시
 );
 
 SELECT * FROM serve;
@@ -589,36 +590,36 @@ SELECT * FROM serve;
 -- 배송 테이블 생성
 create table delivery(
                          del_no int primary KEY AUTO_INCREMENT,						-- 배송 번호
-                         pay_no int not NULL, 												-- 결제 번호
-                         custom_id varchar(20) not NULL,									-- 고객 아이디
-                         del_addr varchar(300) not NULL, 								-- 배송지
-                         cus_tel varchar(13) not NULL,									-- 고객 연락처
-                         del_com varchar(100),												-- 배송 회사
-                         del_tel varchar(13),												-- 배송 기사님 전화번호
-                         del_state int default 0,											-- 배송 상태 -> (0 : 입고 중, 1 : 출하 중, 2 : 상차, 3 : 하차, 4 : 캠프 도착, 5 : 배송 중, 6 : 배송 도착)
-                         del_date timestamp default CURRENT_TIMESTAMP,				-- 배송 출발일
-                         res_date varchar(13),												-- 배송 도착일
-                         del_code varchar(30)												-- 송장 코드
+                         pay_no int not null, 						-- 결제 번호
+                         custom_id varchar(20) not null,					-- 고객 아이디
+                         del_addr varchar(300) not null, 				-- 배송지
+                         cus_tel varchar(13) not null,					-- 고객 연락처
+                         del_com varchar(100),							-- 배송 회사
+                         del_tel varchar(13),							-- 배송 기사님 전화번호
+                         del_state int default 0,					-- 배송 상태 -> (0 : 입고 중, 1 : 출하 중, 2 : 상차, 3 : 하차, 4 : 캠프 도착, 5 : 배송 중, 6 : 배송 도착)
+                         del_date timestamp default current_timestamp,	-- 배송 출발일
+                         res_date varchar(13),							-- 배송 도착일
+                         del_code varchar(30)							-- 송장 코드
 );
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 결제 테이블 생성
 create table payment(
-                        pay_no INT primary KEY AUTO_INCREMENT,							-- 결제 번호
-                        cus_id varchar(20) not NULL,										-- 고객 아이디
-                        cus_num varchar(100),												-- 고객 번호
-                        pro_no int not NULL,													-- 상품 번호
-                        amount int default 1,												-- 결제 수량
-                        pay_method varchar(100),											-- 결제 수단
-                        pay_com varchar(100),												-- 결제 회사
-                        pay_price int default 1000,										-- 결제 금액
-                        pay_account varchar(100) NOT NULL,								-- 결제 카드 번호
-                        del_no INT NOT NULL,													-- 배송 번호(랜덤번호 추출)
+                        pay_no INT primary KEY AUTO_INCREMENT,			-- 결제 번호
+                        cus_id varchar(20) not null,		-- 고객 아이디
+                        cus_num varchar(100),				-- 고객 번호
+                        pro_no int not null,			-- 상품 번호
+                        amount int default 1,			-- 결제 수량
+                        pay_method varchar(100),			-- 결제 수단
+                        pay_com varchar(100),				-- 결제 회사
+                        pay_price int default 1000,		-- 결제 금액
+                        pay_account varchar(100) NOT NULL,	-- 결제 카드 번호
+                        del_no INT NOT NULL,				-- 배송 번호(랜덤번호 추출)
                         pay_resdate timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP -- 결제 일시 지정
 );
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 카테고리 테이블
 create table category(
@@ -649,31 +650,31 @@ insert into category values('S', '유아기타');
 insert into category values('T', '해외서적');
 insert into category values('U', '해외콘텐츠');
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 카트 테이블 생성
 create table cart(
-                     cart_no serial primary KEY,								-- 카트 번호
-                     cus_id varchar(20) not NULL,								-- 고객 아이디
-                     pro_no integer not NULL,									-- 상품 번호
-                     amount integer not NULL              				   -- 상품 수량
+                     cart_no serial primary key,				-- 카트 번호
+                     cus_id varchar(20) not null,			-- 고객 아이디
+                     pro_no integer not null,				-- 상품 번호
+                     amount integer not null                 -- 상품 수량
 );
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 후기 테이블 생성
 CREATE TABLE review(
-                       rev_no int PRIMARY KEY AUTO_INCREMENT, 			            			-- 리뷰 번호
-                       mem_id VARCHAR(16) NOT NULL, 													-- 회원 아이디
-                       pay_no INT NOT NULL, 																-- 결제 번호
-                       pro varchar(200) NOT NULL, 														-- 상품명
-                       star INT DEFAULT 5, 																-- 별점
-                       content VARCHAR(1000), 															-- 리뷰 내용
-                       regdate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,					-- 리뷰 작성 일자
-                       pro_no INT NOT NULL  																-- 상품 번호
+                       rev_no int PRIMARY KEY AUTO_INCREMENT, 			         	-- 리뷰 번호
+                       mem_id VARCHAR(16) NOT NULL, 								-- 회원 아이디
+                       pay_no INT NOT NULL, 										-- 결제 번호
+                       pro varchar(200) NOT NULL, 									-- 상품명
+                       star INT DEFAULT 5, 										    -- 별점
+                       content VARCHAR(1000), 										-- 리뷰 내용
+                       regdate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,		-- 리뷰 작성 일자
+                       pro_no INT NOT NULL  										-- 상품 번호
 );
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 재고 뷰 생성
 create view inventory as (select re_no, amount from receive EXCEPT select se_no, amount from serve);
@@ -682,61 +683,61 @@ select * from product;
 
 select * from payment;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 상품 목록
 select * from product order by pro_no;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 신상품 목록
 select * from product order by pro_no desc limit 5;
 
---------------------------------------------------------------
+----------------------------------------------------------------------------------------
 
 -- 베스트셀러 상품 목록
-select * from product where pro_no in (select pro_no from payment group by pro_no order by sum(amount) desc limit 5);
+select * from product where pro_no in (select pro_no FROM payment group by pro_no order by sum(amount) DESC) LIMIT 5;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 카테고리별 신상품 목록
 select * from product where cate=? order by pro_no desc limit 3;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 카테고리별 베스트셀러 상품 목록
 select * from product where pcode in (select pro_no from payment group by pro_no order by sum(amount)) and cate=? limit 3;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 상품 등록
 insert into product values(default, ?, '', ?, ?, ?, ?, ?, ?, ?, default);
 
 update product set pro_no = concat(cate_id, pro_no) where pro_no=1;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 상품 제거
 delete from product where pro_no=?;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 상품 정보 변경
-update product set pname=?, cate=?, pcomment=?, plist=?, price=?, imgsrc1=?, imgsrc2=?, imgsrc3=? where pno=?;
+update product set pname=?, cate=?, pcomment=?, plist=?, price=?, imgsrc1=?, imgsrc2=?, imgsrc3=? where pro_no=?;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 입고 조회
 select * from receive;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 입고 처리 패턴
 insert into receive values (default, ?, ?, ?, default);
 
-insert into receive(pno, amount, rprice) values (?, ?, ?);
+insert into receive(pro_no, amount, rprice) values (?, ?, ?);
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 상품, 결제, 출고, 배송, 카트 테이블 확인
 select * from product;
@@ -745,7 +746,7 @@ select * from serve;
 select * from delivery;
 select * from cart;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 출고 처리 패턴
 insert into payment values (default, ?, ?, ?, ?, ?, ?, ?, '');
@@ -753,7 +754,7 @@ insert into serve values(default, ?, ?, ?, default);
 insert into delivery values (default, ?, ?, ?, ?, '','',default,default,'','');
 delete from cart where cartno=?;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 반품 처리 패턴(배송전이면 반품 가능)
 delete from payment where sno=?;
@@ -762,12 +763,12 @@ delete from serve where sno=?;
 insert into cart values (default, ?, ?, ?);
 delete from delivery where sno=?;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 배송처리
 update delivery set pcom=?, ptel=?, pstate=1, sdate=current_timestamp, rdate=?, bcode=? where dno=?;
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 -- 배송 완료 처리
 update delivery set pstate=2 where dno=?;
@@ -782,4 +783,4 @@ select * from receive;
 select * from delivery;
 select * from payment;
 select * from custom;
-select * from inventory;team32productproduct
+select * from inventory;

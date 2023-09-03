@@ -33,13 +33,13 @@ public class LoginProCtrl extends HttpServlet {
 
         HttpSession session = request.getSession();
         PrintWriter out = response.getWriter();
-        RequestDispatcher view;
 
         if(pass){
             msg = "로그인 성공";
             session.setAttribute("sid", id);
             request.setAttribute("msg", msg);
-            response.sendRedirect(request.getContextPath());
+            RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/index.jsp");
+            view.forward(request, response);
             //response.sendRedirect("/pro02");
             //view = request.getRequestDispatcher("/pro02");
             //view.forward(request, response);

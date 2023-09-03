@@ -1,5 +1,6 @@
 package com.shop.controller.custom;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -14,6 +15,7 @@ public class LogoutCtrl extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         session.invalidate();
-        response.sendRedirect(request.getContextPath());
+        RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/index.jsp");
+        view.forward(request, response);
     }
 }

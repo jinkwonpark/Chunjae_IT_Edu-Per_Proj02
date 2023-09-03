@@ -72,7 +72,7 @@ public class CheckoutProCtrl extends HttpServlet {
         //한번에 처리
         MultiPattern multiDAO = new MultiPattern();
         for(int i =0; i<cartList.size();i++){
-            int pno = multiDAO.pay(delList.get(i), payList.get(i), servList.get(i), cartlist.get(i));
+            int pro_no = multiDAO.pay(delList.get(i), payList.get(i), servList.get(i), cartlist.get(i));
         }
 
         String path = request.getContextPath();

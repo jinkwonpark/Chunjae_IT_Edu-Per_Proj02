@@ -168,7 +168,7 @@ ol {
 }
 
 .primary-btn:hover {
-	background: linear-gradient(45deg, #ffd500, #fff0ad); /* 호버 상태에서의 배경 변경 */
+	background: linear-gradient(45deg, #ee7498, #eeadbf); /* 호버 상태에서의 배경 변경 */
 }
 
 .site-btn {
@@ -184,7 +184,7 @@ ol {
 }
 
 .site-btn:hover {
-	background: linear-gradient(45deg, #ffd500, #fff0ad); /* 호버 상태에서의 배경 변경 */
+	background: linear-gradient(45deg,#ee7498, #eeadbf); /* 호버 상태에서의 배경 변경 */
 }
 
 /* Preloder */
@@ -609,7 +609,7 @@ ol {
 }
 
 .hero__categories__all:hover {
-	background: linear-gradient(45deg, #ffd500, #fff0ad); /* 호버 상태에서의 배경 변경 */
+	background: linear-gradient(45deg,#ee7498, #eeadbf); /* 호버 상태에서의 배경 변경 */
 }
 
 .hero__categories__all i {

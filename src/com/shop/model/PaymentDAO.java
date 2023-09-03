@@ -241,9 +241,9 @@ public class PaymentDAO {
         return payList;
     }
 
-    public String getTitle(int pno){
+    public String getTitle(int pro_no){
         ProductDAO dao = new ProductDAO();
-        Product pro  = dao.getProduct(pno);
+        Product pro  = dao.getProduct(pro_no);
         return pro.getTitle();
     }
 

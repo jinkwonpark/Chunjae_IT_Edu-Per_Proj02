@@ -16,9 +16,9 @@ public class AdminDashboardCtrl extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("msg", "관리자 메인 페이지입니다.");
 
-        ProductDAO dao = new ProductDAO();
+        /*ProductDAO dao = new ProductDAO();
         List<AdminHotProVO> proList = dao.getAdminHotProduct();
-        request.setAttribute("hotProducts", proList);
+        request.setAttribute("hotProducts", proList);*/
 
         RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/admin/adminDashboard.jsp");
         view.forward(request, response);

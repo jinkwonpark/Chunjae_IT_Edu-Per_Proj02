@@ -81,7 +81,7 @@
                     <div class="col-lg-12 text-center" style="width:400px;">
                         <button type="submit" class="site-btn" style="width:370px;">LOGIN</button><br><br>
                         <div><span>처음이신가요?</span>&nbsp;
-                            <a href="${path}/custom/term.jsp" style="font-size : 15px; font-weight:bold; text-decoration-line: none; color:yellowgreen;">회원가입</a>
+                            <a href="${path}/custom/term.jsp" style="font-size : 15px; font-weight:bold; text-decoration-line: none; color:#ee7498;">회원가입</a>
                         </div>
                     </div>
                 </div>
