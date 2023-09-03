@@ -18,7 +18,7 @@
                     </div>
                     <div class="blog__item__text">
                         <h5><a href="#">유아</a></h5>
-                        <p>콘북은 배움의 시작을 함께합니다.</p>
+                        <p>웨일북은 배움의 시작을 함께합니다.</p>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                     </div>
                     <div class="blog__item__text">
                         <h5><a href="#">초등</a></h5>
-                        <p>콘북은 학교로 내딛는 첫 걸음을 응원합니다.</p>
+                        <p>웨일북은 학교로 내딛는 첫 걸음을 응원합니다.</p>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="blog__item__text">
                         <h5><a href="#">중고등</a></h5>
-                        <p>콘북은 꿈을 찾고 이루는 과정을 돕습니다.</p>
+                        <p>웨일북은 꿈을 찾고 이루는 과정을 돕습니다.</p>
                     </div>
                 </div>
             </div>

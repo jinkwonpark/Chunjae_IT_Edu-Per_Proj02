@@ -77,7 +77,7 @@
             height: 20px;
             line-height: 20px;
             text-align: center;
-            background-color: #81b2d5;
+            background-color: #ee7498;
             color: #fff;
             border-radius: 50%;
             margin-right: 10px;
@@ -90,7 +90,7 @@
             height: 20px;
             line-height: 20px;
             text-align: center;
-            background-color: #0075fa;
+            background-color: #58a5fc;
             color: #fff;
             border-radius: 50%;
             margin-right: 10px;
