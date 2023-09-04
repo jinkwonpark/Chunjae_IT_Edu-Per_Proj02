@@ -187,7 +187,7 @@
    
 <p align="center"><img alt="구매확정" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/73e9f084-2bb9-409c-b6cd-0a2deafb48ac"></p>
      
-<p align="center"><img alt="나의 리뷰관리" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/0711a0ba-876d-4805-9c28-695bf872a86c"></p>
+<p align="center"><img alt="나의 리뷰관리" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/6277791b-23c7-44e2-b7a2-5fd16c3271ce"></p>
   
        
 ## 고객 지원
@@ -195,11 +195,13 @@
 - CURD
   - 관리자: 글쓰기, 수정, 삭제
   - 회원: 읽기
-  <p align="center"><img alt="공지사항 글 목록" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/a49fd606-45f2-4fae-90b0-1c19fc50642c"></p>
+ <p align="center"><img alt="공지사항 글 목록" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/a4b8e0ef-b36c-4dcf-aea4-93fb0bbd882e"></p>
    
-  <p align="center"><img alt="공지사항 글 쓰기, 수정" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/2b72daa6-c552-4fba-8491-d35ee599ddda"></p>
+ <p align="center"><img alt="공지사항 글 쓰기" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/6f8b3129-a15c-41bc-a7ee-dd6c97c071f5"></p>
+
+ <p align="center"><img alt="공지사항 글 수정" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/4bd6a9a1-dc5c-4ffe-a8ef-da076cc38338"></p>
        
- <p align="center"><img alt="공지사항 글 상세보기" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/03ed96d0-b867-4898-b1df-67b327ab9d82"></p>
+ <p align="center"><img alt="공지사항 글 상세보기" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/f9c70c49-b8f9-4ef0-a6e8-e1b15a83b803"></p>
         
           
 #### FAQ
