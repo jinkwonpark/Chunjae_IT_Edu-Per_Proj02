@@ -226,11 +226,11 @@
 - 관리자 입고 기능
 - 상품 비디오 재생 기능
 - 상품 후기리스트 기능
-<p align="center"><img alt="상품 상세페이지" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/51fc71c0-40da-40a6-9244-eb8a061d7837"></p>
+<p align="center"><img alt="상품 상세페이지" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/0da1929e-761a-416e-beb8-006fa5622536"></p>
                
-<p align="center"><img alt="상품 비디오" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/e23a0a9f-ff76-4f89-b43f-ae15bfb76b56"></p>
+<p align="center"><img alt="상품 비디오" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/a4697ecf-67c2-48d8-b060-b1b32f86f582"></p>
                 
-<p align="center"><img alt="상품 리뷰 리스트" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/a4638f51-fbd9-4911-b273-0d2d3d53bcf4"></p>
+<p align="center"><img alt="상품 리뷰 리스트" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/ae0886b2-c46b-46ce-a78c-a12159151047"></p>
                 
                   
 ## 관리자 기능
