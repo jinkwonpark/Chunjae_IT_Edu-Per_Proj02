@@ -156,7 +156,8 @@
 ## 메인 페이지
 - 사이드바
 - 카카오톡 1:1 상담 기능
-<p align="center"><img alt="메인페이지" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/c1e37e3a-be97-4a12-a750-0599e7975e4e"></p>
+<p align="center"><img alt="메인페이지" src="[Uploading screencapture-localhost-8081-2023-09-04-15_45_03.pdf…]()
+"></p>
 
  
 ## 🗂 회원 기능
@@ -244,10 +245,3 @@
 <p align="center"><img alt="배송정보" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/287cbe7f-2c63-4e8d-aedc-ccafe473154f"></p>
                    
 <p align="center"><img alt="회원관리" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/bf6fedfd-e21f-48aa-ae25-f1068ed1d95c"></p>
-
-
-## 🎬 콘북 시연영상
-
-https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/138674233/faf5cf33-df97-4f60-8262-b77b872fdf8d
-
-
