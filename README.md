@@ -187,7 +187,7 @@
    
 <p align="center"><img alt="구매확정" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/73e9f084-2bb9-409c-b6cd-0a2deafb48ac"></p>
      
-<p align="center"><img alt="나의 리뷰관리" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/8c4e1ed0-d13a-49fa-bb0d-5fa24c227993"></p>
+<p align="center"><img alt="나의 리뷰관리" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/0711a0ba-876d-4805-9c28-695bf872a86c"></p>
   
        
 ## 고객 지원
