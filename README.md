@@ -165,14 +165,14 @@
 - DB값 검증
 - ID찾기, PW찾기
 - 로그인 시 쿠키(Cookie) 및 세션(Session) 생성
-  <p align="center"><img alt="로그인 화면" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/34374adb-efc7-4326-b3c3-306d744f0064"></p>
+  <p align="center"><img alt="로그인 화면" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/e39b3e9e-fead-430a-a227-494089cbeed5"></p>
  
 #### (2)회원가입
 - 주소 API 연동
 - ID 중복 체크
 - 비밀번호 유효성 검사
   
-<p align="center"><img alt="회원가입 화면" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/f5075b17-1287-4f98-9be3-4df2330b7cf8"></p>
+<p align="center"><img alt="회원가입 화면" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/5bc073c8-8b97-41aa-af51-d355ac091d05"></p>
 
    
 ### 2.마이 페이지
