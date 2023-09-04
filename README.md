@@ -206,19 +206,19 @@
           
 #### FAQ
 - 토글 형식의 FAQ 기능
-<p align="center"><img alt="FAQ" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/45577714-fe6a-4138-93a5-a39d2df38f3a"></p>
+<p align="center"><img alt="FAQ" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/c71072b0-83bd-4c43-affa-c10a668f5a7f"></p>
           <sub><b> PIC11 : FAQ </sub></b>
            
 ## 상품
 #### (1)상품리스트
 - 유아/초/중/고 카테고리별 리스트 출력 기능
-<p align="center"><img alt="유아상품 리스트" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/7bcfc1d0-3f53-4b9a-a45e-f24a2110431f"></p>
+<p align="center"><img alt="유아상품 리스트" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/e1a44fd3-70cc-4eaa-87ef-827ea1bd59ca"></p>
            
-<p align="center"><img alt="초등상품 리스트" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/1e80a638-ca3a-438a-a82d-9a4b456b9913"></p>
+<p align="center"><img alt="초등상품 리스트" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/331edea6-eea7-4caf-8317-0b10263fd146"></p>
             
-<p align="center"><img alt="중등상품 리스트" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/fcbd9ebc-49fa-4bd2-a8e8-45ff2f0eea92"></p>
+<p align="center"><img alt="중등상품 리스트" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/c6f4a8a8-985c-46ba-ac99-13a653b6b290"></p>
            
-<p align="center"><img alt="고등상품 리스트" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/fc11b92a-3517-4f81-8ad5-89b4c960b255"></p>
+<p align="center"><img alt="고등상품 리스트" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/9dd3f0a6-23f8-4653-84ae-843ca110af16"></p>
              
                
 #### (2)상품 상세페이지
