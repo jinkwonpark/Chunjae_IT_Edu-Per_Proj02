@@ -235,14 +235,11 @@
                   
 ## 관리자 기능
 #### 관리자 페이지
-- 대시보드 형식의 관리자 페이지
 - 상품 관리 기능: 상품 등록, 수정, 삭제
 - 배송정보 관리: 결제완료 주문 배송상태 변경
-- 회원관리 기능: 회원정보 수정/강퇴
-<p align="center"><img alt="관리자 페이지" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/13466fd1-dc2c-4eab-b91a-e6c698de7e7f"></p>
-                
-<p align="center"><img alt="상품 관리" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/0a8b5fdb-634c-4c61-8e6a-1c25c8f515ec"></p>
+- 회원관리 기능: 회원정보 수정/강퇴  
+<p align="center"><img alt="상품 관리" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/29e34ee3-b7cc-499b-b079-c2bf97c316a2"></p>
                   
-<p align="center"><img alt="배송정보" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/287cbe7f-2c63-4e8d-aedc-ccafe473154f"></p>
+<p align="center"><img alt="배송정보" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/ab895be0-e11f-4312-9571-b1d0e382e139"></p>
                    
-<p align="center"><img alt="회원관리" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/bf6fedfd-e21f-48aa-ae25-f1068ed1d95c"></p>
+<p align="center"><img alt="회원관리" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/9bc02b6e-a7d8-43d2-8dfc-73135295fb4e"></p>
