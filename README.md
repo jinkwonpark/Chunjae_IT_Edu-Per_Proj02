@@ -156,8 +156,7 @@
 ## 메인 페이지
 - 사이드바
 - 카카오톡 1:1 상담 기능
-<p align="center"><img alt="메인페이지" src="[Uploading screencapture-localhost-8081-2023-09-04-15_45_03.pdf…]()
-"></p>
+<p align="center"><img alt="메인페이지" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/8435a831-c399-4378-9ed4-bab46eac8a13"></p>
 
  
 ## 🗂 회원 기능
