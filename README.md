@@ -140,16 +140,16 @@
 <p align="center"><img alt="시퀀스다이아그램4" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/0298422d-f296-4b14-a003-daa4b7bfa331"></p>
 
 #### 상품
-<p align="center"><img alt="시퀀스다이아그램5" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/ea85de63-4a21-4dba-8537-5a23c22a31e0"></p>
+<p align="center"><img alt="시퀀스다이아그램5" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/9bed4ef7-d332-4255-9aab-5d2bacfe6717"></p>
 
 #### 결제
-<p align="center"><img alt="시퀀스다이아그램6" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/eb220af3-59c1-43a5-9692-d18b0702f9ef"></p>
+<p align="center"><img alt="시퀀스다이아그램6" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/7752b246-3307-4b72-8a0d-ad4e8370dfa3"></p>
 
 #### 입고
-<p align="center"><img alt="시퀀스다이아그램7" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/138674233/d03ac3b6-0556-4bef-8575-59eb904365cc"></p>
+<p align="center"><img alt="시퀀스다이아그램7" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/76f8b4a9-e486-491a-b3cd-1d1f1c6f936e"></p>
 
 #### 리뷰
-<p align="center"><img alt="시퀀스다이아그램8" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/94f59868-d322-4dac-85f3-54628f4f08cf"></p>
+<p align="center"><img alt="시퀀스다이아그램8" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/c2d052a9-1911-4e76-b368-dbf7ededd441"></p>
 
 
 # 📎기능 구현
