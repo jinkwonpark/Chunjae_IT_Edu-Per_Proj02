@@ -171,21 +171,21 @@
 - 주소 API 연동
 - ID 중복 체크
 - 비밀번호 유효성 검사
-  
-<p align="center"><img alt="회원가입 화면" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/5bc073c8-8b97-41aa-af51-d355ac091d05"></p>
 
-   
+<p align="center"><img alt="회원가입 화면" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/a90c9438-9e67-4701-87c6-fd732897e018"></p>
+
+
 ### 2.마이 페이지
 - 주소 API 연동
 - 회원정보 변경
 - 구매한 상품 목록
 - 내가 쓴 리뷰 관리
 - 배송 조회 기능: 구매 확정 후 리뷰 등록
-<p align="center"><img alt="나의 정보 수정" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/86284942-9f4a-48ad-a136-2f000f9a683c"></p>
+<p align="center"><img alt="나의 정보 수정" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/53ba5942-351a-45a6-aac3-129edd0e8ed8"></p>
   
-<p align="center"><img alt="배송 조회" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/6a8cc848-e193-47a1-81e6-17ac18c528b5"></p>
+<p align="center"><img alt="배송 조회" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/6db563ed-affe-4820-9ba5-4ec2446be06d"></p>
    
-<p align="center"><img alt="구매확정" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/e1d0cfe7-4c1d-4a5f-8f0b-ab87b0fcf4ed"></p>
+<p align="center"><img alt="구매확정" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj02/assets/132269367/73e9f084-2bb9-409c-b6cd-0a2deafb48ac"></p>
      
 <p align="center"><img alt="나의 리뷰관리" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj02/assets/139138265/8c4e1ed0-d13a-49fa-bb0d-5fa24c227993"></p>
   
