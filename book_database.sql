@@ -677,7 +677,9 @@ CREATE TABLE review(
 -------------------------------------------------------------------------------------------
 
 -- 재고 뷰 생성
-create view inventory as (select re_no, amount from receive EXCEPT select se_no, amount from serve);
+create view inventory as (select pro_no, amount from receive EXCEPT select se_no, amount from serve);
+
+select pro_no, amount from receive EXCEPT select se_no, amount from serve;
 
 select * from product;
 
@@ -701,7 +703,7 @@ select * from product where pro_no in (select pro_no FROM payment group by pro_n
 -------------------------------------------------------------------------------------------
 
 -- 카테고리별 신상품 목록
-select * from product where cate=? order by pro_no desc limit 3;
+select * FROM (product where cate=? order BY (pro_no) DESC) limit 3;
 
 -------------------------------------------------------------------------------------------
 
